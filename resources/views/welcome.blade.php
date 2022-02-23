@@ -15,7 +15,7 @@
 
             <livewire:page-speed />
 
-{{--
+
             <div class="w-64">
                 <div class="mt-6" x-data="{ open: false }">
                     <button class="button w-full" @click="open = true">Show More...</button>
@@ -31,7 +31,7 @@
                 </div>
             </div>
         </div>
---}}
+
 
         @livewireScripts
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
