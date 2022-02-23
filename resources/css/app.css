@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-sans text-base;
+}
+
+@layer components {
+    .button {
+        @apply text-white bg-blue-700 hover:bg-blue-800 rounded px-5 py-2.5 text-center mr-2 mb-2;
+    }
+}
